@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSProject1</title>
+</head>
+<body>
+    <style>
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        nav{
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            background-color: #fff;
+            height: 40px;
+            width: 100%;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: sans-serif;
+            box-shadow: 2px 0px 10px rgba(0,0,0,0.5) ;
+        }
+        .nav-center h4, ul{
+            display: inline;
+        }
+        nav ul{
+            margin-left: 300px;
+        }
+        nav ul li{
+            display: inline-block;
+            margin: 5px;
+        }
+        nav h4{
+            color: rgb(39, 149, 223);
+            margin-left: 400px;
+        }
+        .container {
+            background-color: #000;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 15px;
+            padding: 30px;
+            font-family: sans-serif;
+            width: 500px;
+            text-align: center;
+        }
+        .btn{
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            border-radius: 10px;
+            line-height: 20px;
+            /* transform: translate(50%,50%); */
+        }
+        .btn:active, .btn:hover{
+            border: 2px solid #fff;
+            border-radius: 10px;
+            background-color: #fff;
+            color: #000;
+        }
+    </style>
+
+    <nav>
+        <div class="nav-center">
+            <h4>Color Flipper</h4>
+            <ul class="nav-link">
+                <li>
+                    <a href="./JSProjects1.html">Simple</a>
+                </li>
+                <li>
+                    <a href="#">Hex</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h2>Background Color : <span class="color"> #f1f5f8</span></h2>
+            <button class="btn btn-hero" id="btn">Click Me</button>
+        </div>
+    </main>
+
+    <script src="./JSProjects1.js"></script>
+    
+</body>
+</html>
