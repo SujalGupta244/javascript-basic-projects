@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSProject2</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        h1{
+            font-size: 4em;
+            /* padding-bottom: 30px; */
+        }
+        span{
+            font-size: 5em;
+            font-weight: 500;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .button-container{
+            padding-top: 40px;
+        }
+        button{
+            border: 2px solid #000;
+            border-radius: 5px;
+            background: transparent;
+            margin: 0 auto;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        button:active,button:hover{
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+
+
+    <main>
+        <div class="container">
+            <h1>Counter</h1>
+            <span id="value">0</span>
+            <div class="button-container">
+                <button class="btn decrease">Decrease</button>
+                <button class="btn reset">Reset</button>
+                <button class="btn increase">Increase</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./JSProject2.js"></script>
+    
+</body>
+</html>
