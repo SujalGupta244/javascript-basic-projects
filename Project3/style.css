@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(228, 228, 228);
+}
+.container{
+    position: absolute;
+    height: 55vh;
+    width: 60%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+}
+
+.title h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.underline{
+    width: 80px;
+    height: 5px;
+    background-color: rgb(54, 207, 207);
+    position: absolute;
+    top: 18%;
+    left: 45%;
+}
+
+.review{
+    width: 80%;
+    height: 60vh;
+    padding: 2rem 0;
+    background-color: #fff;
+    text-align: center;
+    transform: translate(10%,0%);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.img-container{
+    padding-top: 10px;
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#author{
+    font-weight: 600;
+    font-size: 20px;
+}
+#job{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(54, 207, 207);
+}
+
+p#info{
+    padding: 0 20px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: rgb(54, 207, 207);
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.3);
+}
+
+button.random-btn{
+    border: 2px solid rgb(54, 207, 207);
+    border-radius: 10px;
+}
+
+button.prev-btn , button.next-btn{
+    margin: 1rem;
+}
+
+button.random-btn:active ,button.random-btn:hover{
+    background-color: rgb(54, 207, 207);
+    color: #fff;
+}
